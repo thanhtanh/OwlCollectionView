@@ -18,10 +18,10 @@
 		C190E61F1D9194090012D7A6 /* OwlCVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E61E1D9194090012D7A6 /* OwlCVDelegate.swift */; };
 		C190E6211D91942F0012D7A6 /* OwlCVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E6201D91942F0012D7A6 /* OwlCVDataSource.swift */; };
 		C1A990431D9BAC0B0018A851 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A990421D9BAC0B0018A851 /* UIColorExtension.swift */; };
-		C1C8CC251D94CCB400A27468 /* Banana+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC231D94CCB400A27468 /* Banana+CoreDataClass.swift */; };
-		C1C8CC261D94CCB400A27468 /* Banana+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC241D94CCB400A27468 /* Banana+CoreDataProperties.swift */; };
-		C1C8CC281D94CD3100A27468 /* BananaDel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC271D94CD3100A27468 /* BananaDel.swift */; };
-		C1C8CC2A1D94D4AB00A27468 /* BananaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC291D94D4AB00A27468 /* BananaCell.swift */; };
+		C1C8CC251D94CCB400A27468 /* Owl+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC231D94CCB400A27468 /* Owl+CoreDataClass.swift */; };
+		C1C8CC261D94CCB400A27468 /* Owl+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC241D94CCB400A27468 /* Owl+CoreDataProperties.swift */; };
+		C1C8CC281D94CD3100A27468 /* OwlDel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC271D94CD3100A27468 /* OwlDel.swift */; };
+		C1C8CC2A1D94D4AB00A27468 /* OwlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC291D94D4AB00A27468 /* OwlCell.swift */; };
 		C2417277F6020FB558FAAB0B /* Pods_OwlCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C7B97438A1F22E79A5FF35 /* Pods_OwlCollectionView.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +63,10 @@
 		C190E61E1D9194090012D7A6 /* OwlCVDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwlCVDelegate.swift; path = OwlCollectionView/OwlCVDelegate.swift; sourceTree = "<group>"; };
 		C190E6201D91942F0012D7A6 /* OwlCVDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwlCVDataSource.swift; path = OwlCollectionView/OwlCVDataSource.swift; sourceTree = "<group>"; };
 		C1A990421D9BAC0B0018A851 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		C1C8CC231D94CCB400A27468 /* Banana+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Banana+CoreDataClass.swift"; sourceTree = "<group>"; };
-		C1C8CC241D94CCB400A27468 /* Banana+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Banana+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		C1C8CC271D94CD3100A27468 /* BananaDel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaDel.swift; sourceTree = "<group>"; };
-		C1C8CC291D94D4AB00A27468 /* BananaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaCell.swift; sourceTree = "<group>"; };
+		C1C8CC231D94CCB400A27468 /* Owl+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owl+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C1C8CC241D94CCB400A27468 /* Owl+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Owl+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C1C8CC271D94CD3100A27468 /* OwlDel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlDel.swift; sourceTree = "<group>"; };
+		C1C8CC291D94D4AB00A27468 /* OwlCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,11 +136,11 @@
 				C190E5F61D9193650012D7A6 /* Assets.xcassets */,
 				C190E5F81D9193650012D7A6 /* LaunchScreen.storyboard */,
 				C190E5FB1D9193650012D7A6 /* Info.plist */,
-				C1C8CC231D94CCB400A27468 /* Banana+CoreDataClass.swift */,
-				C1C8CC241D94CCB400A27468 /* Banana+CoreDataProperties.swift */,
+				C1C8CC231D94CCB400A27468 /* Owl+CoreDataClass.swift */,
+				C1C8CC241D94CCB400A27468 /* Owl+CoreDataProperties.swift */,
 				C190E5F31D9193650012D7A6 /* OwlCollectionView.xcdatamodeld */,
-				C1C8CC271D94CD3100A27468 /* BananaDel.swift */,
-				C1C8CC291D94D4AB00A27468 /* BananaCell.swift */,
+				C1C8CC271D94CD3100A27468 /* OwlDel.swift */,
+				C1C8CC291D94D4AB00A27468 /* OwlCell.swift */,
 				C1A990421D9BAC0B0018A851 /* UIColorExtension.swift */,
 			);
 			path = OwlCollectionView;
@@ -366,12 +366,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1C8CC281D94CD3100A27468 /* BananaDel.swift in Sources */,
+				C1C8CC281D94CD3100A27468 /* OwlDel.swift in Sources */,
 				C190E61F1D9194090012D7A6 /* OwlCVDelegate.swift in Sources */,
 				C190E5EF1D9193650012D7A6 /* ViewController.swift in Sources */,
-				C1C8CC261D94CCB400A27468 /* Banana+CoreDataProperties.swift in Sources */,
-				C1C8CC251D94CCB400A27468 /* Banana+CoreDataClass.swift in Sources */,
-				C1C8CC2A1D94D4AB00A27468 /* BananaCell.swift in Sources */,
+				C1C8CC261D94CCB400A27468 /* Owl+CoreDataProperties.swift in Sources */,
+				C1C8CC251D94CCB400A27468 /* Owl+CoreDataClass.swift in Sources */,
+				C1C8CC2A1D94D4AB00A27468 /* OwlCell.swift in Sources */,
 				C190E5ED1D9193650012D7A6 /* AppDelegate.swift in Sources */,
 				C1A990431D9BAC0B0018A851 /* UIColorExtension.swift in Sources */,
 				C190E6211D91942F0012D7A6 /* OwlCVDataSource.swift in Sources */,
