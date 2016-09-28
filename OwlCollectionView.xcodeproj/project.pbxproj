@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C190E5ED1D9193650012D7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E5EC1D9193650012D7A6 /* AppDelegate.swift */; };
+		C190E5EF1D9193650012D7A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E5EE1D9193650012D7A6 /* ViewController.swift */; };
+		C190E5F21D9193650012D7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190E5F01D9193650012D7A6 /* Main.storyboard */; };
+		C190E5F51D9193650012D7A6 /* OwlCollectionView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C190E5F31D9193650012D7A6 /* OwlCollectionView.xcdatamodeld */; };
+		C190E5F71D9193650012D7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190E5F61D9193650012D7A6 /* Assets.xcassets */; };
+		C190E5FA1D9193650012D7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190E5F81D9193650012D7A6 /* LaunchScreen.storyboard */; };
+		C190E6051D9193650012D7A6 /* OwlCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E6041D9193650012D7A6 /* OwlCollectionViewTests.swift */; };
+		C190E6101D9193650012D7A6 /* OwlCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E60F1D9193650012D7A6 /* OwlCollectionViewUITests.swift */; };
+		C190E61F1D9194090012D7A6 /* OwlCVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E61E1D9194090012D7A6 /* OwlCVDelegate.swift */; };
+		C190E6211D91942F0012D7A6 /* OwlCVDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E6201D91942F0012D7A6 /* OwlCVDataSource.swift */; };
+		C1A990431D9BAC0B0018A851 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A990421D9BAC0B0018A851 /* UIColorExtension.swift */; };
+		C1C8CC251D94CCB400A27468 /* Banana+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC231D94CCB400A27468 /* Banana+CoreDataClass.swift */; };
+		C1C8CC261D94CCB400A27468 /* Banana+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC241D94CCB400A27468 /* Banana+CoreDataProperties.swift */; };
+		C1C8CC281D94CD3100A27468 /* BananaDel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC271D94CD3100A27468 /* BananaDel.swift */; };
+		C1C8CC2A1D94D4AB00A27468 /* BananaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8CC291D94D4AB00A27468 /* BananaCell.swift */; };
+		C2417277F6020FB558FAAB0B /* Pods_OwlCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C7B97438A1F22E79A5FF35 /* Pods_OwlCollectionView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C190E6011D9193650012D7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C190E5E11D9193650012D7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C190E5E81D9193650012D7A6;
+			remoteInfo = OwlCollectionView;
+		};
+		C190E60C1D9193650012D7A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C190E5E11D9193650012D7A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C190E5E81D9193650012D7A6;
+			remoteInfo = OwlCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4EDDFF153EC6723AF46AE0 /* Pods-OwlCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwlCollectionView/Pods-OwlCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		35C7B97438A1F22E79A5FF35 /* Pods_OwlCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C58FF89CC20D1B1BAAD57B /* Pods-OwlCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwlCollectionView/Pods-OwlCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		C190E5E91D9193650012D7A6 /* OwlCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C190E5EC1D9193650012D7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C190E5EE1D9193650012D7A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C190E5F11D9193650012D7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C190E5F41D9193650012D7A6 /* OwlCollectionView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OwlCollectionView.xcdatamodel; sourceTree = "<group>"; };
+		C190E5F61D9193650012D7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C190E5F91D9193650012D7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C190E5FB1D9193650012D7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C190E6001D9193650012D7A6 /* OwlCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C190E6041D9193650012D7A6 /* OwlCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlCollectionViewTests.swift; sourceTree = "<group>"; };
+		C190E6061D9193650012D7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C190E60B1D9193650012D7A6 /* OwlCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C190E60F1D9193650012D7A6 /* OwlCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlCollectionViewUITests.swift; sourceTree = "<group>"; };
+		C190E6111D9193650012D7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C190E61E1D9194090012D7A6 /* OwlCVDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwlCVDelegate.swift; path = OwlCollectionView/OwlCVDelegate.swift; sourceTree = "<group>"; };
+		C190E6201D91942F0012D7A6 /* OwlCVDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OwlCVDataSource.swift; path = OwlCollectionView/OwlCVDataSource.swift; sourceTree = "<group>"; };
+		C1A990421D9BAC0B0018A851 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C1C8CC231D94CCB400A27468 /* Banana+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Banana+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C1C8CC241D94CCB400A27468 /* Banana+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Banana+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C1C8CC271D94CD3100A27468 /* BananaDel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaDel.swift; sourceTree = "<group>"; };
+		C1C8CC291D94D4AB00A27468 /* BananaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BananaCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C190E5E61D9193650012D7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2417277F6020FB558FAAB0B /* Pods_OwlCollectionView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190E5FD1D9193650012D7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190E6081D9193650012D7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841FB5A4D94FDDA408A1914D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B4EDDFF153EC6723AF46AE0 /* Pods-OwlCollectionView.debug.xcconfig */,
+				54C58FF89CC20D1B1BAAD57B /* Pods-OwlCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C190E5E01D9193650012D7A6 = {
+			isa = PBXGroup;
+			children = (
+				C190E5EB1D9193650012D7A6 /* OwlCollectionView */,
+				C190E6031D9193650012D7A6 /* OwlCollectionViewTests */,
+				C190E60E1D9193650012D7A6 /* OwlCollectionViewUITests */,
+				C190E5EA1D9193650012D7A6 /* Products */,
+				841FB5A4D94FDDA408A1914D /* Pods */,
+				C6F0200A0EA753BD5EB7CEC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C190E5EA1D9193650012D7A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C190E5E91D9193650012D7A6 /* OwlCollectionView.app */,
+				C190E6001D9193650012D7A6 /* OwlCollectionViewTests.xctest */,
+				C190E60B1D9193650012D7A6 /* OwlCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C190E5EB1D9193650012D7A6 /* OwlCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C190E61D1D9193B00012D7A6 /* OwlCollectionView */,
+				C190E5EC1D9193650012D7A6 /* AppDelegate.swift */,
+				C190E5EE1D9193650012D7A6 /* ViewController.swift */,
+				C190E5F01D9193650012D7A6 /* Main.storyboard */,
+				C190E5F61D9193650012D7A6 /* Assets.xcassets */,
+				C190E5F81D9193650012D7A6 /* LaunchScreen.storyboard */,
+				C190E5FB1D9193650012D7A6 /* Info.plist */,
+				C1C8CC231D94CCB400A27468 /* Banana+CoreDataClass.swift */,
+				C1C8CC241D94CCB400A27468 /* Banana+CoreDataProperties.swift */,
+				C190E5F31D9193650012D7A6 /* OwlCollectionView.xcdatamodeld */,
+				C1C8CC271D94CD3100A27468 /* BananaDel.swift */,
+				C1C8CC291D94D4AB00A27468 /* BananaCell.swift */,
+				C1A990421D9BAC0B0018A851 /* UIColorExtension.swift */,
+			);
+			path = OwlCollectionView;
+			sourceTree = "<group>";
+		};
+		C190E6031D9193650012D7A6 /* OwlCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C190E6041D9193650012D7A6 /* OwlCollectionViewTests.swift */,
+				C190E6061D9193650012D7A6 /* Info.plist */,
+			);
+			path = OwlCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		C190E60E1D9193650012D7A6 /* OwlCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C190E60F1D9193650012D7A6 /* OwlCollectionViewUITests.swift */,
+				C190E6111D9193650012D7A6 /* Info.plist */,
+			);
+			path = OwlCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		C190E61D1D9193B00012D7A6 /* OwlCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C190E61E1D9194090012D7A6 /* OwlCVDelegate.swift */,
+				C190E6201D91942F0012D7A6 /* OwlCVDataSource.swift */,
+			);
+			name = OwlCollectionView;
+			sourceTree = "<group>";
+		};
+		C6F0200A0EA753BD5EB7CEC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C7B97438A1F22E79A5FF35 /* Pods_OwlCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C190E5E81D9193650012D7A6 /* OwlCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C190E6141D9193650012D7A6 /* Build configuration list for PBXNativeTarget "OwlCollectionView" */;
+			buildPhases = (
+				1E727DA071FC9C5EAA129343 /* [CP] Check Pods Manifest.lock */,
+				C190E5E51D9193650012D7A6 /* Sources */,
+				C190E5E61D9193650012D7A6 /* Frameworks */,
+				C190E5E71D9193650012D7A6 /* Resources */,
+				1C979CB1F8EAE95487CC5AEF /* [CP] Embed Pods Frameworks */,
+				410B236BE24AC6B0021326BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OwlCollectionView;
+			productName = OwlCollectionView;
+			productReference = C190E5E91D9193650012D7A6 /* OwlCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C190E5FF1D9193650012D7A6 /* OwlCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C190E6171D9193650012D7A6 /* Build configuration list for PBXNativeTarget "OwlCollectionViewTests" */;
+			buildPhases = (
+				C190E5FC1D9193650012D7A6 /* Sources */,
+				C190E5FD1D9193650012D7A6 /* Frameworks */,
+				C190E5FE1D9193650012D7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C190E6021D9193650012D7A6 /* PBXTargetDependency */,
+			);
+			name = OwlCollectionViewTests;
+			productName = OwlCollectionViewTests;
+			productReference = C190E6001D9193650012D7A6 /* OwlCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C190E60A1D9193650012D7A6 /* OwlCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C190E61A1D9193650012D7A6 /* Build configuration list for PBXNativeTarget "OwlCollectionViewUITests" */;
+			buildPhases = (
+				C190E6071D9193650012D7A6 /* Sources */,
+				C190E6081D9193650012D7A6 /* Frameworks */,
+				C190E6091D9193650012D7A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C190E60D1D9193650012D7A6 /* PBXTargetDependency */,
+			);
+			name = OwlCollectionViewUITests;
+			productName = OwlCollectionViewUITests;
+			productReference = C190E60B1D9193650012D7A6 /* OwlCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C190E5E11D9193650012D7A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = T4nhpt;
+				TargetAttributes = {
+					C190E5E81D9193650012D7A6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C190E5FF1D9193650012D7A6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C190E5E81D9193650012D7A6;
+					};
+					C190E60A1D9193650012D7A6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C190E5E81D9193650012D7A6;
+					};
+				};
+			};
+			buildConfigurationList = C190E5E41D9193650012D7A6 /* Build configuration list for PBXProject "OwlCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C190E5E01D9193650012D7A6;
+			productRefGroup = C190E5EA1D9193650012D7A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C190E5E81D9193650012D7A6 /* OwlCollectionView */,
+				C190E5FF1D9193650012D7A6 /* OwlCollectionViewTests */,
+				C190E60A1D9193650012D7A6 /* OwlCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C190E5E71D9193650012D7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C190E5FA1D9193650012D7A6 /* LaunchScreen.storyboard in Resources */,
+				C190E5F71D9193650012D7A6 /* Assets.xcassets in Resources */,
+				C190E5F21D9193650012D7A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190E5FE1D9193650012D7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190E6091D9193650012D7A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C979CB1F8EAE95487CC5AEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwlCollectionView/Pods-OwlCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E727DA071FC9C5EAA129343 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		410B236BE24AC6B0021326BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OwlCollectionView/Pods-OwlCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C190E5E51D9193650012D7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C8CC281D94CD3100A27468 /* BananaDel.swift in Sources */,
+				C190E61F1D9194090012D7A6 /* OwlCVDelegate.swift in Sources */,
+				C190E5EF1D9193650012D7A6 /* ViewController.swift in Sources */,
+				C1C8CC261D94CCB400A27468 /* Banana+CoreDataProperties.swift in Sources */,
+				C1C8CC251D94CCB400A27468 /* Banana+CoreDataClass.swift in Sources */,
+				C1C8CC2A1D94D4AB00A27468 /* BananaCell.swift in Sources */,
+				C190E5ED1D9193650012D7A6 /* AppDelegate.swift in Sources */,
+				C1A990431D9BAC0B0018A851 /* UIColorExtension.swift in Sources */,
+				C190E6211D91942F0012D7A6 /* OwlCVDataSource.swift in Sources */,
+				C190E5F51D9193650012D7A6 /* OwlCollectionView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190E5FC1D9193650012D7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C190E6051D9193650012D7A6 /* OwlCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190E6071D9193650012D7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C190E6101D9193650012D7A6 /* OwlCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C190E6021D9193650012D7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C190E5E81D9193650012D7A6 /* OwlCollectionView */;
+			targetProxy = C190E6011D9193650012D7A6 /* PBXContainerItemProxy */;
+		};
+		C190E60D1D9193650012D7A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C190E5E81D9193650012D7A6 /* OwlCollectionView */;
+			targetProxy = C190E60C1D9193650012D7A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C190E5F01D9193650012D7A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C190E5F11D9193650012D7A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C190E5F81D9193650012D7A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C190E5F91D9193650012D7A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C190E6121D9193650012D7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C190E6131D9193650012D7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C190E6151D9193650012D7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4EDDFF153EC6723AF46AE0 /* Pods-OwlCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OwlCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t4nhpt.OwlCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C190E6161D9193650012D7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C58FF89CC20D1B1BAAD57B /* Pods-OwlCollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OwlCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t4nhpt.OwlCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C190E6181D9193650012D7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OwlCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t4nhpt.OwlCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlCollectionView.app/OwlCollectionView";
+			};
+			name = Debug;
+		};
+		C190E6191D9193650012D7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OwlCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t4nhpt.OwlCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlCollectionView.app/OwlCollectionView";
+			};
+			name = Release;
+		};
+		C190E61B1D9193650012D7A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OwlCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t4nhpt.OwlCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OwlCollectionView;
+			};
+			name = Debug;
+		};
+		C190E61C1D9193650012D7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OwlCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.t4nhpt.OwlCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OwlCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C190E5E41D9193650012D7A6 /* Build configuration list for PBXProject "OwlCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C190E6121D9193650012D7A6 /* Debug */,
+				C190E6131D9193650012D7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C190E6141D9193650012D7A6 /* Build configuration list for PBXNativeTarget "OwlCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C190E6151D9193650012D7A6 /* Debug */,
+				C190E6161D9193650012D7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C190E6171D9193650012D7A6 /* Build configuration list for PBXNativeTarget "OwlCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C190E6181D9193650012D7A6 /* Debug */,
+				C190E6191D9193650012D7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C190E61A1D9193650012D7A6 /* Build configuration list for PBXNativeTarget "OwlCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C190E61B1D9193650012D7A6 /* Debug */,
+				C190E61C1D9193650012D7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C190E5F31D9193650012D7A6 /* OwlCollectionView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C190E5F41D9193650012D7A6 /* OwlCollectionView.xcdatamodel */,
+			);
+			currentVersion = C190E5F41D9193650012D7A6 /* OwlCollectionView.xcdatamodel */;
+			path = OwlCollectionView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C190E5E11D9193650012D7A6 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_OwlCollectionView {
+  umbrella header "Pods-OwlCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
