@@ -88,5 +88,7 @@ Explain the screenshot:
 - Requirement: A timer will add an `owl` after each 2 seconds with random height (the number at the end of each item). If the new owl with the height already existed in the list, it just been updated info (a random color) only. If height = 2, remove that existed owl. All owls in the list will be sorted by height.
 - Solve: At you can see the example in project, I just add/update/delete new owl to CoreData, and don't care how UI update. It also update when you a view controller is not displayed to user.
 
+# License
 
+OwlCollectionView is released under the MIT license. See LICENSE for details.
 
