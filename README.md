@@ -1,5 +1,7 @@
 # OwlCollectionView
 
+> This is a version for CoreData. If you are using Realm, take a look into this version: https://github.com/thanhtanh/OwlRealmCollectionView
+
 Are you tired when you want to make data be synced between viewcontrollers? Such as you want:
 
 - When you add an item, it will be added into list immediately
